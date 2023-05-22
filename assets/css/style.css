@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    background: #000;
+}
+
+section{
+    padding: 100px 0;
+}
+
+.btn-top {
+    padding: 0.2em;
+    width: 200px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    border: 2px solid #fff;
+}
+
+/* Tokenomics Mechanics */
+
+.toke{
+    height: 400px;
+    padding: 0;
+    position: relative;
+}
+
+.toke-left{
+    border-right: 5px solid orange;
+}
+
+.toke-left:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+    right: 0;
+    top: 0;
+	width: 30%;
+    border-top: 5px solid orange;
+	border-bottom: 5px solid orange;
+}
+.toke-right{
+    border-left: 5px solid orange;
+}
+
+.toke-right:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+    left: 0;
+    top: 0;
+	width: 30%;
+    border-top: 5px solid orange;
+	border-bottom: 5px solid orange;
+}
+
+.toke-center-inner{
+    border-bottom: 2px solid orange;
+    height: 50%;
+}
+
+/* Footer */
+
+footer{
+    padding: 0;
+    margin: 0;
+}
+
+.menu-right{
+    list-style-type: none;
+}
+
+.footer-upper{
+    padding: 50px 0;
+}
+
+.footer-lower{
+    background: orange;
+}
+    
