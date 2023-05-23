@@ -6,21 +6,97 @@
 }
 
 body{
-    background: #000;
+    background: #151414;
+}
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 section{
     padding: 100px 0;
 }
 
+/* Hero Section */
+
+.main-title{
+    padding: 10px;
+    border-bottom: 2px solid #E0A130;
+}
+
+.main-head{
+    font-size: 25px;
+    color: #E0A130;
+    font-weight: 600;
+}
+
+.main-desc{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .btn-top {
-    padding: 0.2em;
+    padding: 0.6em;
     width: 200px;
     border-radius: 40px;
-    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #E0A130;
+    letter-spacing: 3px;
+    background: #5B5959;
+    text-transform: uppercase;
+}
+
+/* About Section */
+
+.sec-main{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+}
+
+.sec-main::before{
+    content: "JUNO";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.1);
+    letter-spacing: 13px;
+}
+
+.sec-main::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    border: 2px solid #E0A130;
+}
+
+.sec-head{
+    padding: 10px 0;
+    width: 70%;
+    position: relative;
+    font-size: 30px !important;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.sec-head::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid #E0A130;
+}
+
+.sec-para{
     font-size: 18px;
-    color: #000;
-    border: 2px solid #fff;
+    margin-top: 10px;
 }
 
 /* Tokenomics Mechanics */
@@ -32,7 +108,7 @@ section{
 }
 
 .toke-left{
-    border-right: 5px solid orange;
+    border-right: 5px solid #E0A130;
 }
 
 .toke-left:after {
@@ -42,11 +118,11 @@ section{
     right: 0;
     top: 0;
 	width: 30%;
-    border-top: 5px solid orange;
-	border-bottom: 5px solid orange;
+    border-top: 5px solid #E0A130;
+	border-bottom: 5px solid #E0A130;
 }
 .toke-right{
-    border-left: 5px solid orange;
+    border-left: 5px solid #E0A130;
 }
 
 .toke-right:after {
@@ -56,13 +132,57 @@ section{
     left: 0;
     top: 0;
 	width: 30%;
-    border-top: 5px solid orange;
-	border-bottom: 5px solid orange;
+    border-top: 5px solid #E0A130;
+	border-bottom: 5px solid #E0A130;
 }
 
 .toke-center-inner{
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #E0A130;
     height: 50%;
+}
+
+/* How to Buy section */
+
+.sec-buy-main{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+}
+
+.sec-buy-main::before{
+    content: "EARNIFICATION";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.1);
+    letter-spacing: 13px;
+}
+
+.sec-buy-main::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 40%;
+    border: 2px solid #E0A130;
+}
+
+.buy-main{
+    padding: 0 1rem !important;
+}
+
+.buy-head{
+    font-size: 25px;
+    color: #E0A130;
+    margin-top: 10px;
+}
+
+.buy-desc{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
 }
 
 /* Footer */
@@ -70,6 +190,36 @@ section{
 footer{
     padding: 0;
     margin: 0;
+    background: #292828 !important;
+}
+
+.footer-head{
+    width: 60%;
+    font-size: 30px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.footer-head::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    border: 2px solid #E0A130;
+}
+
+.footer-main{
+    color: #E0A130;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.footer-para{
+    font-size: 15px !important;
+    font-weight: 500;
+
 }
 
 .menu-right{
@@ -81,6 +231,6 @@ footer{
 }
 
 .footer-lower{
-    background: orange;
+    background: #E0A130;
 }
     
