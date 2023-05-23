@@ -56,6 +56,13 @@ section {
     font-weight: 100;
 }
 
+iframe{
+    height: 100%;
+    width: 60%;
+    border: 10px solid #E0A130;
+    border-radius: 20px;
+}
+
 /* Hero Section */
 
 .main-title {
