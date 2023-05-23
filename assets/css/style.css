@@ -335,3 +335,8 @@ footer {
 .footer-lower {
     background: #E0A130;
 }
+
+.footer-icon{
+    font-size: 30px;
+    margin-left: 10px;
+}
