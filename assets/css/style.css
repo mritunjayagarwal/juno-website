@@ -106,6 +106,10 @@ iframe {
 
 /* About Section */
 
+.about-sec{
+    width: 80%;
+}
+
 .sec-main {
     width: 40%;
     margin: 0 auto;
@@ -225,6 +229,14 @@ iframe {
 
 .div-2 {
     bottom: 0px;
+}
+
+.web-img{
+    display: block
+}
+
+.mob-img{
+    display: none;
 }
 
 /* Roadmap Section */
@@ -363,8 +375,74 @@ footer {
         width: 150px;
     }
 
+    .about-sec{
+        width: 100%;
+    }
+
     .sec-main{
         width: 100%;
-        font-size: 23px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .sec-main::before{
+        margin: 0 auto !important;
+        left: 0;
+        right: 0;
+    }
+    .sec-main::after{
+        left: 30%;
+    }
+
+    .sec-head{
+        font-size: 22px !important;
+        width: 80%;
+    }
+
+    .sec-roadmap{
+        font-size: 25px;
+    }
+
+    .sec-buy-main{
+        font-size: 25px;
+        margin-top: 100px
+    }
+
+    iframe{
+       margin-top: 200px !important;
+       height: 600px;
+       width: 100%;
+    }
+
+    .toke{
+        height: 150px;
+    }
+
+    .toke-center{
+        height: 400px;
+    }
+
+    .toke-center-inner{
+        border: unset;
+    }
+
+    .div-2{
+        bottom: -30px;
+    }
+
+    .web-img{
+        display: none;
+    }
+
+    .mob-img{
+        display: block;
+        margin-top: -200px;
+    }
+
+    .buy-head{
+        font-size: 22px !important;
+    }
+
+    .buy-desc{
+        font-size: 15px;
     }
 }
