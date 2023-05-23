@@ -216,7 +216,7 @@ section {
 }
 
 .sec-roadmap::before {
-    content: "EARNIFICATION";
+    content: "JUNO";
     position: absolute;
     left: 0;
     right: 0;
@@ -245,9 +245,11 @@ section {
 }
 
 .sec-buy-main::before {
-    content: "EARNIFICATION";
+    content: "JUNO";
     position: absolute;
     left: 0;
+    right: 0;
+    margin: 0 auto;
     top: 0px;
     font-size: 40px;
     color: rgba(255, 255, 255, 0.1);
@@ -277,6 +279,7 @@ section {
     margin-top: 20px;
     color: #fff;
     font-weight: 500;
+    text-transform: lowercase;
 }
 
 /* Footer */
