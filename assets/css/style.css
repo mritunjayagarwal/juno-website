@@ -6,7 +6,9 @@
 }
 
 body{
-    background: #151414;
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -16,6 +18,21 @@ body{
 
 section{
     padding: 100px 0;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+
+.nav-item a{
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+    border-bottom: 2px solid #E0A130;
+    padding-bottom: 5px;
+    width: 15%;
 }
 
 /* Hero Section */
@@ -139,6 +156,35 @@ section{
 .toke-center-inner{
     border-bottom: 2px solid #E0A130;
     height: 50%;
+}
+
+/* Roadmap Section */
+
+.sec-roadmap{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+}
+
+.sec-roadmap::before{
+    content: "EARNIFICATION";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.1);
+    letter-spacing: 13px;
+}
+
+.sec-roadmap::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    width: 40%;
+    border: 2px solid #E0A130;
 }
 
 /* How to Buy section */
