@@ -55,6 +55,11 @@ section {
     color: #fff;
 }
 
+.nav-item a:hover{
+    color: #E0A130;
+    text-decoration: none;
+}
+
 .uni-btn {
     background: transparent;
     border: 2px solid #E0A130;
